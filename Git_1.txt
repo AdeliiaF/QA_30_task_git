@@ -1,0 +1,326 @@
+TXT https://github.com/AdeliiaF/TXT 
+ 1. Создать внешний репозиторий c названием TXT. 
+	Open website
+	Button new
+	Create a new repository
+	https://github.com/AdeliiaF/TXT.git
+
+ 2. Клонировать репозиторий TXT на локальный компьютер.
+	Button Code
+	Copy a link
+	git clone https://github.com/AdeliiaF/TXT.git
+
+ 3. Внутри локального TXT создать файл “new.txt”. 
+	cd TXT/
+	touch new.txt
+
+ 4. Добавить файл под гит.
+	git add .
+
+ 5. Закоммитить файл. 
+	git commit -m "new txt file is created"
+
+ 6. Отправить файл на внешний GitHub репозиторий.
+	git push 
+
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+	cat >> new.txt
+
+ 8. Отправить изменения на внешний репозиторий.
+	git add .
+	git commit -m "new.txt file is updated"
+	git push
+
+ 9. Создать файл preferences.txt
+	touch preferences.txt
+
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+	cat > preferences.txt
+
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+	cat > skills.txt
+
+ 12. Сделать коммит в одну строку.
+	git commit -m "2 files are added"
+
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+	git push
+
+ 14. На веб интерфейсе создать файл bug_report.txt.
+	Open https://github.com/AdeliiaF/TXT
+	Button Add file 
+	create new file
+
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	Button commit changes
+
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+	Open bug_report.txt
+	Click edit file (pensil)
+
+Add Info
+	Id 	1
+	Summary	На устройствах nokia не работает запись в диктофоне
+	Environment	Телефоны производителя nokia
+	Priority	low
+	Severity	Blocker
+	Steps to reproduce	1)Открыть приложение
+                    		2) Авторизация в приложении
+                    		3) Нажать на кнопку записи диктовки
+	Actual result	  Невозможно начать запись диктовки из-за неактивной кнопки
+	Expected result	  При нажатии на кнопку записи диктовки, запись начинается
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	Button commit changes
+	
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+	git pull
+
+
+JSON https://github.com/AdeliiaF/JSON
+ 4. Создать внешний репозиторий c названием JSON.
+	Open website
+	Button new
+	Create a new repository	
+	https://github.com/AdeliiaF/JSON
+
+ 5. Клонировать репозиторий JSON на локальный компьютер.
+	Button Code
+	Copy a link
+	git clone https://github.com/AdeliiaF/JSON
+
+ 6. Внутри локального JSON создать файл “new.json”.
+	cd JSON/
+	touch new.json
+
+ 7. Добавить файл под гит.
+	git add .
+
+ 8. Закоммитить файл.
+	git commit -m "new file is created"
+
+ 9. Отправить файл на внешний GitHub репозиторий.
+	git push
+
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+	vim new.json
+	i
+	ADD INFO
+	Esc
+	:wq
+
+INFO
+{
+  "ФИО": "Файзуллина Аделия Рашатовна",
+  "возраст": "27",
+  "количество домашних животных": "0",
+  "будущая желаемая зарплата": "750$" 
+}
+
+
+ 11. Отправить изменения на внешний репозиторий.
+	git add new.json
+	git commit -m "new file is updated"
+	git push
+
+ 12. Создать файл preferences.json
+	touch preferences.json
+
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+	vim preferences.json
+	i
+	ADD INFO
+	Esc
+	:wq
+
+INFO
+{
+  "Favorite movie": "The Phantom of the Opera",
+  "Favorite TV series": "Castle",
+  "Favorite food": "Italian cuisine",
+  "Favorite time of the year": "Autumn",
+  "The country you would like to visit": "United Kingdom"
+}
+
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+	touch skills.json
+	vim skills.json
+	i
+	ADD INFO 
+	Esc
+	:wq
+
+INFO 
+{
+  "Skills": [ "Bash",
+            "GitHub",
+            "Postman",
+            "DevTools",
+            "Android studio",
+            "SQL",
+            "Jmeter",
+            "Charles"
+  ]
+}
+
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+	git add .
+	git commit -m "new files are added"
+	git push
+
+ 16. На веб интерфейсе создать файл bug_report.json.
+	Open https://github.com/AdeliiaF/JSON
+	Button Add file 
+	create new file
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	Button commit changes
+
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+	Open bug_report.json
+	Click edit file (pensil)
+	Add Info
+
+{
+  "Id": "1",
+  "Summary": "На устройствах nokia не работает запись в диктофоне",
+  "Environment": "Телефоны производителя nokia",
+  "Priority": "low",
+  "Severity": "Blocker",
+  "Steps to reproduce": [ "1)Открыть приложение",
+                          "2) Авторизация в приложении",
+                          "3) Нажать на кнопку записи диктовки"
+  ]
+  "Actual result": "Невозможно начать запись диктовки из-за неактивной кнопки",
+  "Expected result": "При нажатии на кнопку записи диктовки, запись начинается"
+}
+
+
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
+	Button Commit changes
+
+ 20. Синхронизировать внешний и локальный репозиторий JSON 
+	git pull
+
+
+XML
+ 21. Создать внешний репозиторий c названием XML.
+	Open website
+	Button new
+	Create a new repository	
+	https://github.com/AdeliiaF/XML
+
+ 22. Клонировать репозиторий XML на локальный компьютер.
+	Button Code
+	Copy a link
+	git clone https://github.com/AdeliiaF/XML
+
+ 23. Внутри локального XML создать файл “new.xml”.
+	CD XML/
+	touch new.xml
+
+ 24. Добавить файл под гит.
+	git add new.xml
+
+ 25. Закоммитить файл.
+	 git commit -m "new file is added"
+
+ 26. Отправить файл на внешний GitHub репозиторий.
+	git push
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+	vim new.xml
+	i
+	ADD INFO
+	Esc
+	:wq
+
+INFO
+<root>
+  <ФИО>Файзуллина Аделия Рашатовна</ФИО>
+  <возраст>27</возраст>
+  <количество_домашних_животных>0</количество_домашних_животных>
+  <будущая_желаемая_зарплата>750$</будущая_желаемая_зарплата>
+</root>
+
+ 28. Отправить изменения на внешний репозиторий.
+	git add new.xml
+	git commit -m "new file is updated"
+	git push
+
+ 29. Создать файл preferences.xml
+	touch preferences.xml
+
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+	vim preferences.xml
+	i
+	ADD INFO
+	Esc
+	:wq
+
+INFO 
+<root>
+  <Favorite_movie>The Phantom of the Opera</Favorite_movie>
+  <Favorite_TV_series>Castle</Favorite_TV_series>
+  <Favorite_food>Italian cuisine</Favorite_food>
+  <Favorite_time_of_the_year>Autumn</Favorite_time_of_the_year>
+  <The_country_you_would_like_to_visit>United Kingdom</The_country_you_would_like_to_visit>
+</root>
+
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+	touch skills.xml
+	vim skills.xml
+	i
+	ADD INFO
+	Esc
+	:wq
+
+INFO
+<root>
+  <Skills>Bash</Skills>
+  <Skills>GitHub</Skills>
+  <Skills>Postman</Skills>
+  <Skills>DevTools</Skills>
+  <Skills>Android studio</Skills>
+  <Skills>SQL</Skills>
+  <Skills>Jmeter</Skills>
+  <Skills>Charles</Skills>
+</root>
+
+ 32. Сделать коммит в одну строку.
+	Git add . 
+	git commit -m "new file are added"
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+	git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+	Open https://github.com/AdeliiaF/XML
+	Button Add file 
+	create new file
+
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	Button commit changes 
+
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+	Open bug_report.xml
+	Click edit file (pensil)
+	Add Info
+<root>
+  <Id>1</Id>
+  <Summary>На устройствах nokia не работает запись в диктофоне</Summary>
+  <Environment>Телефоны производителя nokia</Environment>
+  <Priority>low</Priority>
+  <Severity>Blocker</Severity>
+  <Steps_to_reproduce>1)Открыть приложение</Steps_to_reproduce>
+  <Steps_to_reproduce>2) Авторизация в приложении</Steps_to_reproduce>
+  <Steps_to_reproduce>3) Нажать на кнопку записи диктовки</Steps_to_reproduce>
+  <Actual_result>Невозможно начать запись диктовки из-за неактивной кнопки</Actual_result>
+  <Expected_result>При нажатии на кнопку записи диктовки, запись начинается</Expected_result>
+</root>
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	Button Commit changes
+
+ 38. Синхронизировать внешний и локальный репозиторий XML
+	git pull
