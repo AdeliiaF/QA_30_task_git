@@ -1,0 +1,6 @@
+1. Download the new build
+2. Open the build
+3. Perform test cases
+4. Perform smoke test
+5. Perform regression test
+
