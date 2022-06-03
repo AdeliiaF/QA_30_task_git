@@ -1,1 +1,0 @@
-# QA_30_task_git
