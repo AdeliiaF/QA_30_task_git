@@ -1,0 +1,9 @@
+id
+summary
+environment
+priority
+severity
+steps to reproduce
+actual result
+expected result
+
